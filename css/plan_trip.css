@@ -1,5 +1,5 @@
 .main-hero-section {
-    background-color: #F3E4C9;
+    background-color: var(--surface-soft);
     background-size: cover;
     background-position: center;
     /* height: 100vh; */
@@ -27,7 +27,7 @@
 
 .sub-content {
     font-size: 70px;
-    color: #E6501B;
+    color: var(--brand);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     margin-bottom: 30px;
@@ -100,7 +100,7 @@ input, select {
 button {
     margin-top: 20px;
     padding: 10px;
-    background: #E6501B;
+    background: var(--brand);
     color: white;
     border: none;
     border-radius: 20px;
@@ -108,5 +108,5 @@ button {
 }
 
 button:hover {
-    background: rgb(214, 14, 14);
+    background: var(--brand-dark);
 }

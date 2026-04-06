@@ -1,5 +1,5 @@
 .main-hero-section {
-    background-color: #F3E4C9;
+    background-color: var(--surface-soft);
     background-size: cover;
     background-position: center;
     /* height: 100vh; */
@@ -27,7 +27,7 @@
 
 .sub-content {
     font-size: 70px;
-    color: #E6501B;
+    color: var(--brand);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     margin-bottom: 30px;
@@ -47,15 +47,43 @@
 .contact-header {
     text-align: center;
     padding: 30px;
-    background: #d8c3a5;
+    background: var(--surface);
+    border: 1px solid var(--border);
 }
 
 /* Container */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form,
+.contact-info {
+    min-width: 300px;
+    max-width: 560px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-map {
+    margin: 10px 0 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 280px;
+    border: 0;
 }
 
 /* Form */
@@ -80,7 +108,7 @@ input, textarea {
 button {
     margin-top: 15px;
     padding: 10px;
-    background: #E6501B;
+    background: var(--brand);
     color: white;
     border: none;
     border-radius: 5px;
@@ -88,7 +116,7 @@ button {
 }
 
 button:hover {
-    background:red ;
+    background: var(--brand-dark);
 }
 
 /* Info */
@@ -108,7 +136,7 @@ button:hover {
 /* Links */
 .contact-info a {
     text-decoration: none;
-    color: #ff6600;
+    color: var(--brand-dark);
     font-weight: bold;
 }
 

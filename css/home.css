@@ -8,13 +8,14 @@
 .main-content {
     margin-left: 6%;
     margin-top: 50px;
+    margin-bottom: auto;
 }
 
 .highlighted-main-content {
     color: #FAB95B;
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
+   margin-top: 5px;
 }
 
 .highlighted-text {

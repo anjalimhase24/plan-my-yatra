@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .main-hero-section {
-    background-color: #F3E4C9;
+    background-color: var(--surface-soft);
     background-size: cover;
     background-position: center;
     /* height: 100vh; */
@@ -31,7 +31,7 @@ body {
 
 .sub-content {
     font-size: 70px;
-    color: #E6501B;
+    color: var(--brand);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     margin-bottom: 30px;
@@ -103,7 +103,7 @@ body {
     display: inline-block;
     margin-bottom: 15px;
     padding: 8px 15px;
-    background: #E6501B;
+    background: var(--brand);
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -112,5 +112,5 @@ body {
 
 /* Hover effect */
 .btn:hover {
-    background: #eb1814;
+    background: var(--brand-dark);
 }
